@@ -14,5 +14,5 @@ Run
 -----------
 
 ```bash
-$ docker run -it -p 8080:8080 -v `pwd`:/workdir koduki/jupyter-ruby
+$ docker run -p 8888:8888 -v "$(pwd):/notebooks" koduki/jupyter-ruby
 ```
